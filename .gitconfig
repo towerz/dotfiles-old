@@ -1,0 +1,24 @@
+[user]
+	name = Bruno Torres
+	email = me@brunotorr.es
+
+[alias]
+    st = status
+    br = branch
+    ci = commit
+    co = checkout
+    df = diff
+    lg = log
+    rb = rebase
+
+[color]
+	ui = true
+
+[core]
+	excludesfile = /Users/bruno/.gitignore_global
+
+[push]
+	default = simple
+
+[merge]
+	tool = opendiff
