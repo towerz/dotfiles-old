@@ -1,5 +1,7 @@
 source $HOME/.dotfiles/homebrew.sh
 
+export FLEXPATH=$HOME/Library/Sprouts/1.1/cache/flex4/4.5.0.20967
+
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home
 export JAVA8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home
 export JAVA7_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_65.jdk/Contents/Home
