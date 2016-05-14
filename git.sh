@@ -28,6 +28,7 @@ function current_git_project {
 }
 
 [[ -f $HOME/.git-completion.bash ]] && . $HOME/.git-completion.bash
+[[ -f "$HOME/.git-flow-completion/git-flow-completion.bash" ]] && . $HOME/.git-flow-completion/git-flow-completion.bash
 [[ -f /usr/share/git-core/contrib/completion/git-prompt.sh ]] && . /usr/share/git-core/contrib/completion/git-prompt.sh
 
 if [[ -d /usr/local/etc/bash_completion.d ]]; then
